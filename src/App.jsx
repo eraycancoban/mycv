@@ -17,9 +17,9 @@ function App() {
             <div>
               <a href="https://www.linkedin.com/in/eraycan-çoban-a17460200" target="_blank"><img src="https://img.icons8.com/?size=100&id=67570&format=png&color=000000" alt="linkedin" /></a>
               <a href="https://github.com/eraycancoban" target="_blank"><img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000" alt="github" /></a>
-              <a href="https://www.linkedin.com/in/eraycan-çoban-a17460200" target="_blank"><img src="https://img.icons8.com/?size=100&id=67353&format=png&color=000000" alt="cv" /></a>
-              <a href=""><img src="https://img.icons8.com/?size=100&id=68248&format=png&color=000000" alt="email" /></a>
-              <a href=""><img src="https://img.icons8.com/?size=100&id=124196&format=png&color=000000" alt="phone" /></a>
+              <a href="https://drive.google.com/file/d/1hGOrM-Pc5AATGvyejivEhVEMRMSmvSh8/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/?size=100&id=67353&format=png&color=000000" alt="cv" download /></a>
+              <a href="mailto:eraycanvoban@gmail.com"><img src="https://img.icons8.com/?size=100&id=68248&format=png&color=000000" alt="email" /></a>
+              <a href="tel:+905350257636"><img src="https://img.icons8.com/?size=100&id=124196&format=png&color=000000" alt="phone" /></a>
             </div>
 
           </div>
@@ -28,7 +28,6 @@ function App() {
         </div>
 
         <div className="plateT">
-
           <div className="grid">
             <div className="summary" >
               <h3 id="summary">Summary</h3>
@@ -56,8 +55,8 @@ function App() {
           </div>
 
           <div className="gridTwo">
-            <div className="sPlate">
-              <h3>Skills</h3>
+            <div className="sPlate" id="skillsP">
+              <h3 id="skills">Skills</h3>
               <p>
                 <ul>
                   <li>Web Development</li>
@@ -70,56 +69,80 @@ function App() {
                 </ul>
               </p>
             </div>
-            <div className="sPlate">
-              <h3>Summary</h3>
+            <div className="sPlate" id="pLangP">
+              <h3 id="pLang">Programming Languages</h3>
               <p>
-                I have experience in backend development with PHP, Node.js, MySQL, and
+                <ul>
+                  <li>JavaScript(Node.js,React)</li>
+                  <li>Php(Laravel)</li>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>Flutter</li>
+                  <li>C,C++</li>
+                  <li>Java</li>
+                  <li>C#</li>
+                  <li>Rust</li>
+                  <li>React Native</li>
+                </ul>
               </p>
+
             </div>
             <div className="sPlate">
-              <h3>Summary</h3>
+              <h3>Languages & Hobies</h3>
               <p>
-                I have experience in backend development with PHP, Node.js, MySQL, and
+                Languages
+                <ul>
+                <li>English | B2-C1</li>
+                <li>German | A2</li>
+                <li>Turkish | Native Speaker</li>
+                </ul>
+                Hobies
+                <ul>
+                  <li>Boxing</li>
+                  <li>Swimming</li>
+                  <li>Drawing & Painting</li>
+                  <li>Carpentery</li>
+                  <li>Video Games</li>
+                </ul>
               </p>
             </div>
           </div>
 
           <div className="sPlate" id="gallery">
-            <h2>projects</h2>
+            <h2>Projects</h2>
             <div class="container">
-  <div class="card">
-    <h3 class="title">Card 1</h3>
-    <div class="image-container">
-      <img src="https://via.placeholder.com/120" alt="Image 1" class="image"/>
-    </div>
-    <div class="info">Information about Card 1</div>
-  </div>
-  <div class="card">
-    <h3 class="title">Card 2</h3>
-    <div class="image-container">
-      <img src="https://via.placeholder.com/120" alt="Image 2" class="image"/>
-    </div>
-    <div class="info">Information about Card 2</div>
-  </div>
-  <div class="card">
-    <h3 class="title">Card 3</h3>
-    <div class="image-container">
-      <img src="https://via.placeholder.com/120" alt="Image 3" class="image"/>
-    </div>
-    <div class="info">Information about Card 3</div>
-  </div>
-  <div class="card">
-    <h3 class="title">Card 4</h3>
-    <div class="image-container">
-      <img src="https://via.placeholder.com/120" alt="Image 4" class="image"/>
-    </div>
-    <div class="info">Information about Card 4</div>
-  </div>
-</div>
+              <div class="card">
+                <h3 class="title">Biletlik</h3>
+                <div class="image-container">
+                 <a href="https://github.com/kagantemizkan/biletlik-react-app"><img src="https://i.imgur.com/Wr8Mjlv.jpeg" alt="Image 1" class="image" /></a>
+                </div>
+                <div class="info">Ticket Sale Site  React,Node.js, MySQL</div>
+              </div>
+              <div class="card">
+                <h3 class="title">Kou Sylabuss</h3>
+                <div class="image-container">
+                  <a href="https://github.com/kagantemizkan/kou-syllabus"><img src="https://i.imgur.com/dj0ckIz.png" alt="Image 2" class="image" /></a>
+                </div>
+                <div class="info">Welsh-Powell Timetable React,Node.js,MySQL</div>
+              </div>
+              <div class="card">
+                <h3 class="title">Kou Turizm</h3>
+                <div class="image-container">
+                  <a href="https://github.com/kagantemizkan/kocaeli-turizm"><img src="https://i.imgur.com/KUxSnYY.jpeg" alt="Image 3" class="image" /></a>
+                </div>
+                <div class="info">Bus Ticket  Php,MySql,React</div>
+              </div>
+              <div class="card">
+                <h3 class="title">iFridge</h3>
+                <div class="image-container">
+                  <a href="https://github.com/eraycancoban/ifridge?tab=readme-ov-file"><img src="https://imgur.com/VXr7LiY.png" alt="Image 4" class="image" /></a>
+                </div>
+                <div class="info">Item list and recipe Flutter,Firebase</div>
+              </div>
+            </div>
           </div>
 
         </div>
-
 
       </div>
 
