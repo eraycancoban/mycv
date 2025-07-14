@@ -17,7 +17,7 @@ function App() {
             <div>
               <a href="https://www.linkedin.com/in/eraycan-çoban-a17460200" target="_blank"><img src="https://img.icons8.com/?size=100&id=67570&format=png&color=000000" alt="linkedin" /></a>
               <a href="https://github.com/eraycancoban" target="_blank"><img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000" alt="github" /></a>
-              <a href="https://drive.google.com/file/d/1hGOrM-Pc5AATGvyejivEhVEMRMSmvSh8/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/?size=100&id=67353&format=png&color=000000" alt="cv" download /></a>
+              <a href="https://drive.google.com/file/d/1Kgg1YqkF9g-y6hWLN9Y4c8LhqLj_2GgS/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/?size=100&id=67353&format=png&color=000000" alt="cv" download /></a>
               <a href="mailto:eraycanvoban@gmail.com"><img src="https://img.icons8.com/?size=100&id=68248&format=png&color=000000" alt="email" /></a>
               <a href="tel:+905350257636"><img src="https://img.icons8.com/?size=100&id=124196&format=png&color=000000" alt="phone" /></a>
             </div>
